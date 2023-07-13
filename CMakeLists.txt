@@ -52,7 +52,7 @@ add_executable(Nano_CUDA_Test Nano_CUDA_Test.cpp)
 include_directories(${OpenCV_INCLUDE_DIRS})
 
 # Link OpenCV libraries | Automatically ilnks against necessary OpenCV libraries based on find_package(OpenCV REQUIRED) command
-target_link_libraries(DisplayImage PRIVATE ${OpenCV_LIBS})
+target_link_libraries(Nano_CUDA_Test PRIVATE ${OpenCV_LIBS})
 
 # Additional directory for the linker
 #link_directories("E:/Coding Folder/OpenCV Folder/build/lib/Release")
